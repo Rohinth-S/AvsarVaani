@@ -35,7 +35,7 @@ AvsarVaani translates the user's structured profile metrics into targeted web se
 
 ### Technical Overview
 *   **Query Generation**: The intent analysis routine in the AI services layer matches candidate criteria against requests to formulate target queries.
-*   **Headless Crawling**: Managed by the crawler client module. The client invokes the scouting task endpoint, configuring target parameters, frequency timers, and the callback webhook URL `[NGROK_BASE_URL]/yutori-webhook`.
+*   **Headless Crawling**: Managed by the crawler client module. The client invokes the scouting task endpoint, configuring target parameters, frequency timers, and the callback webhook URL `[NGROK_BASE_URL]/scout-webhook`.
 *   **Ranking**: Matches are saved in the `opportunities` collection and scored based on semantic relevance against the candidate's parsed skills.
 
 ---
